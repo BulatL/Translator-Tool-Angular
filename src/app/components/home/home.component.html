@@ -1,0 +1,14 @@
+<div class="text-center">
+  <div id="translateDiv" class="text-center">
+    <input id="translateInput" (keyup)='getTranslate()' name="textForTranslate" [(ngModel)]="textForTranslate"/>
+  </div>
+  <div>
+  </div>
+</div>
+<div id="translatedTextDiv">
+  <h3>Translated Text:</h3> <h3 id="translatedText"  name="translatedText">{{translatedText}}</h3>
+</div>
+
+<div id="buttonDiv">
+  <button id="translateBtn" (click)="btnTranslate()">OK - continue</button>
+</div>

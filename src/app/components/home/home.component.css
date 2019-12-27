@@ -1,0 +1,39 @@
+#translateDiv {
+   background-color: rgba(150, 220, 255, 0.4);
+   border-color: rgb(150, 220, 255);
+   border-style: solid;
+   border-radius: 1px;
+   height: 6em;
+   margin: 0 auto 0 auto;
+   margin-bottom: 1em;
+   text-align: center;
+}
+
+#translateInput {
+   margin: 3em auto 0 auto;
+   width: 80%;
+}
+
+#buttonDiv {
+   float: right;
+   margin-top: 3em;
+   margin-right: 1.5em;
+}
+
+#translateBtn {
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 120%;
+   padding: 0.2em 0.4em;
+   background-color: rgb(235, 149, 14);
+   color: white;
+}
+
+#translatedTextDiv {
+   display: inline-flex;
+}
+
+#translatedText {
+   margin-left: 0.3em;
+}
